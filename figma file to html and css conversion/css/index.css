@@ -8,27 +8,32 @@
 /* below is the code for mobile */
 
 
-@media only screen and (max-width: 1024px){
-    main{
+@media only screen and (max-width: 1024px)
+{
+    main
+    {
         width:375px;
         height:9000px;
         background-color: grey;
         margin:0 auto;
     }
 
-    header{
+    header
+    {
         width:375px;
         height:471px;
         background-color:#E6EEF6;
         position: relative;
     }
 
-    @font-face {
+    @font-face 
+    {
         font-family: libre;
         src: url(../fonts/LibreBaskerville-Regular.ttf);
     }
 
-    header h1{
+    header h1
+    {
         color: #00FF7F;
         font-size:28px;
         font-family: libre;
@@ -40,17 +45,20 @@
         text-transform: capitalize;
     }
 
-    header img{
+    header img
+    {
         position: absolute;
         left: 324px;
         top: 12px;
     }
 
-    nav{
+    nav
+    {
         display: none;
     }
 
-    #banner{
+    #banner
+    {
         width:375px;
         height:325px;
         background-color: aqua;
@@ -60,34 +68,38 @@
         position: absolute;
         top:146px;
     }
-#lowerheader{
+#lowerheader
+{
     list-style-type: none;
 }
 
-#lowerheader li:nth-of-type(2){
-line-height: 23.75px;
-font-weight: 400;
-font-size: 16px;
-position: absolute;
-left: 168px;
-top: 91px;
-background: url(../images/bg/Vector.png);
-background-repeat: no-repeat;
-padding-left: 29px;
+#lowerheader li:nth-of-type(2)
+{
+  line-height: 23.75px;
+  font-weight: 400;
+  font-size: 16px;
+  position: absolute;
+  left: 168px;
+  top: 91px;
+  background: url(../images/bg/Vector.png);
+  background-repeat: no-repeat;
+  padding-left: 29px;
 }
 
-#lowerheader li:nth-of-type(3){
+#lowerheader li:nth-of-type(3)
+{
     line-height: 23.75px;
-font-weight: 400;
-font-size: 16px;
-position: absolute;
-left: 269px;
-top: 91px;
-background: url(../images/bg/Vector\ \(1\).png);
-background-repeat: no-repeat;
-padding-left: 29px;
+    font-weight: 400;
+    font-size: 16px;
+    position: absolute;
+    left: 269px;
+    top: 91px;
+    background: url(../images/bg/Vector\ \(1\).png);
+    background-repeat: no-repeat;
+    padding-left: 29px;
 }
-    #lowerheader input{
+    #lowerheader input
+    {
         position: absolute;
         width:145px;
         height:30px;
@@ -103,27 +115,32 @@ padding-left: 29px;
 
 
 /* below is the code for tablet */
-@media only screen and (min-width: 1024px){
-    main{
+@media only screen and (min-width: 1024px)
+{
+    main
+    {
         width:1024px;
         height:7000px;
         background-color: grey;
         margin: 0 auto;
     }
 
-    header{
+    header
+    {
         width:1024px;
         height:555px;
         background-color: antiquewhite;
         border:solid;
         position: relative;
     }
-    @font-face {
+    @font-face 
+    {
         font-family: libre;
         src: url(../fonts/LibreBaskerville-Regular.ttf);
     }
 
-    header h1{
+    header h1
+    {
         color: #00FF7F;
         font-size:45.92px;
         font-family: libre;
@@ -135,16 +152,19 @@ padding-left: 29px;
         text-transform: capitalize;
     }
 
-    header img{
+    header img
+    {
         position: absolute;
         left: 899.73px;
         top: 15.95px;
     }
-nav{
-    display: none;
-}
+ nav
+    {
+        display: none;
+    }
 
-    #banner{
+    #banner
+    {
         width:1024px;
         height:345px;
         background-color: aqua;
@@ -159,25 +179,30 @@ nav{
 
 /* below is the code for desktop. */
 
-@media only screen and (min-width: 1400px){
-    main{
+@media only screen and (min-width: 1400px)
+{
+    main
+    {
         width:1400px;
         height:7000px;
         margin: 0 auto;
     }
 
-    header{
+    header
+    {
         width:1400px;
         height:520px;
         background-color:#E6EEF6;
         position: relative;
     }
-    @font-face {
+    @font-face
+    {
         font-family: libre;
         src: url(../fonts/LibreBaskerville-Regular.ttf);
     }
 
-    header h1{
+    header h1
+    {
         color: #00FF7F;
         font-size:45.23px;
         font-family: libre;
@@ -189,37 +214,43 @@ nav{
         text-transform: capitalize;
     }
 
-    header img{
+    header img
+    {
         display: none;
     }
 
-    nav{
+    nav
+    {
         display: block;
         position: absolute;
         top: 24.87px;
         left: 420.73px;
     }
 
-    nav ul{
+    nav ul
+    {
         list-style-type: none;
         text-align: center;
         background-color: #FE5000;
     }
 
-    nav ul li{
+    nav ul li
+    {
         display: inline;
         
         line-height: 48.62px;
         padding:5px 30px;
     }
 
-    nav ul li:first-of-type{
+    nav ul li:first-of-type
+    {
         background-color: #00FF7F;
         line-height: 48.62px;
         padding:15.8px 26px;
      
     }
-    #banner{
+    #banner
+    {
         width:1400px;
         height:364px;
        
