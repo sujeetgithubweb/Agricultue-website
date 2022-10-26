@@ -1,0 +1,133 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border:0;
+}
+
+main{
+    width:1400px;
+    height:7159px;
+    background-color: #E6EEF6;
+    margin:0 auto;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+header{
+    width:1400px;
+    height:186px;
+    position: relative;
+}
+
+@font-face {
+    font-family: Shashikant;
+    src: url(../fonts/LibreBaskerville-Regular.ttf);
+}
+
+header h1{
+    font-family: Shashikant;
+    color:#00FF7F;
+    font-size: 45.23px;
+    Line-height: 56.08px;
+    font-weight: 700;
+    position: absolute;
+    top:20.35px;
+    left:97.24px;
+    
+}
+
+nav {
+    display: inline-block;
+    width:883px;
+    height: 50px;
+    position: absolute;
+    top:24.87px;
+    left:420.73px;
+    background-color: #FE5000;
+}
+
+nav ul{
+    list-style-type: none;
+  
+    
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
+nav ul li{
+    display: inline;
+    line-height: 50px;
+    padding:16px 19px 16px 19px;
+    font-family: roboto;
+ font-size: 19.55px;
+ color: #000000;
+ font-weight: 900;
+
+}
+
+nav ul li:first-child{
+    background-color: #00FF7F;
+    
+}
+
+#lowerheader{
+    list-style-type: none;
+}
+header ul li input{
+    width:926.88px;
+    height:33.92px;
+    border-top-left-radius:14.66px;
+    border-bottom-left-radius:14.66px;
+    position: absolute;
+    top:123.24px;
+    left:97.24px;
+    border:solid;
+    border-color: #000000;
+    border-width: 0.98px;
+    border-right: 0;
+}
+header ul li button{
+    width:50px;
+    height:36px;
+    position: absolute;
+    top:123.24px;
+    left:1024.12px;
+    border-top-right-radius:14.66px;
+    border-bottom-right-radius:14.66px;
+    border: solid;
+    border-color: #000000;
+    border-width: 0.98px;
+    border-left: 0;
+    background: url(../images/bg/magnifying-glass.png);
+    background-size:30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity:0.5;
+}
+
+#lowerheader li:nth-of-type(2){
+    padding-left:30px;
+    background: url(../images/bg/web.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top:123.24px;
+    right:200px;
+    line-height: 25px;
+}
+
+#lowerheader li:nth-of-type(3){
+    padding-left:30px;
+    background: url(../images/bg/login.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top:123.24px;
+    right:100px;
+    line-height: 25px;
+}

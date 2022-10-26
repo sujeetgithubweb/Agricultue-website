@@ -1,0 +1,233 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+
+/* below is the code for mobile */
+
+
+@media only screen and (max-width: 1024px){
+    main{
+        width:375px;
+        height:9000px;
+        background-color: grey;
+        margin:0 auto;
+    }
+
+    header{
+        width:375px;
+        height:471px;
+        background-color:#E6EEF6;
+        position: relative;
+    }
+
+    @font-face {
+        font-family: libre;
+        src: url(../fonts/LibreBaskerville-Regular.ttf);
+    }
+
+    header h1{
+        color: #00FF7F;
+        font-size:28px;
+        font-family: libre;
+        font-weight: 700;
+        line-height:34.72px;
+        position: absolute;
+        top: 12px;
+        left: 16px;
+        text-transform: capitalize;
+    }
+
+    header img{
+        position: absolute;
+        left: 324px;
+        top: 12px;
+    }
+
+    nav{
+        display: none;
+    }
+
+    #banner{
+        width:375px;
+        height:325px;
+        background-color: aqua;
+        background: url(../images/bg/mobile.jpg);
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        top:146px;
+    }
+#lowerheader{
+    list-style-type: none;
+}
+
+#lowerheader li:nth-of-type(2){
+line-height: 23.75px;
+font-weight: 400;
+font-size: 16px;
+position: absolute;
+left: 168px;
+top: 91px;
+background: url(../images/bg/Vector.png);
+background-repeat: no-repeat;
+padding-left: 29px;
+}
+
+#lowerheader li:nth-of-type(3){
+    line-height: 23.75px;
+font-weight: 400;
+font-size: 16px;
+position: absolute;
+left: 269px;
+top: 91px;
+background: url(../images/bg/Vector\ \(1\).png);
+background-repeat: no-repeat;
+padding-left: 29px;
+}
+    #lowerheader input{
+        position: absolute;
+        width:145px;
+        height:30px;
+        top: 85px;
+        left:16px;
+        border-radius:15px;
+        border:solid;
+        border-width:1px;
+        border-color: darkgrey;
+        text-align: center;
+    }
+}
+
+
+/* below is the code for tablet */
+@media only screen and (min-width: 1024px){
+    main{
+        width:1024px;
+        height:7000px;
+        background-color: grey;
+        margin: 0 auto;
+    }
+
+    header{
+        width:1024px;
+        height:555px;
+        background-color: antiquewhite;
+        border:solid;
+        position: relative;
+    }
+    @font-face {
+        font-family: libre;
+        src: url(../fonts/LibreBaskerville-Regular.ttf);
+    }
+
+    header h1{
+        color: #00FF7F;
+        font-size:45.92px;
+        font-family: libre;
+        font-weight: 700;
+        line-height:56.95px;
+        position: absolute;
+        top: 20.54px;
+        left: 49.55px;
+        text-transform: capitalize;
+    }
+
+    header img{
+        position: absolute;
+        left: 899.73px;
+        top: 15.95px;
+    }
+nav{
+    display: none;
+}
+
+    #banner{
+        width:1024px;
+        height:345px;
+        background-color: aqua;
+        background: url(../images/bg/tablet.jpg);
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        top: 209px;
+    }
+}
+
+
+/* below is the code for desktop. */
+
+@media only screen and (min-width: 1400px){
+    main{
+        width:1400px;
+        height:7000px;
+        margin: 0 auto;
+    }
+
+    header{
+        width:1400px;
+        height:520px;
+        background-color:#E6EEF6;
+        position: relative;
+    }
+    @font-face {
+        font-family: libre;
+        src: url(../fonts/LibreBaskerville-Regular.ttf);
+    }
+
+    header h1{
+        color: #00FF7F;
+        font-size:45.23px;
+        font-family: libre;
+        font-weight: 700;
+        line-height:56.08px;
+        position: absolute;
+        top: 20.35px;
+        left: 97.24px;
+        text-transform: capitalize;
+    }
+
+    header img{
+        display: none;
+    }
+
+    nav{
+        display: block;
+        position: absolute;
+        top: 24.87px;
+        left: 420.73px;
+    }
+
+    nav ul{
+        list-style-type: none;
+        text-align: center;
+        background-color: #FE5000;
+    }
+
+    nav ul li{
+        display: inline;
+        
+        line-height: 48.62px;
+        padding:5px 30px;
+    }
+
+    nav ul li:first-of-type{
+        background-color: #00FF7F;
+        line-height: 48.62px;
+        padding:15.8px 26px;
+     
+    }
+    #banner{
+        width:1400px;
+        height:364px;
+       
+        background: url(../images/bg/desktop.jpeg);
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        top:186px;
+    }
+}
+
