@@ -68,36 +68,36 @@
         position: absolute;
         top:146px;
     }
-#lowerheader
-{
-    list-style-type: none;
-}
+    #lowerheader
+    {
+        list-style-type: none;
+    }
 
-#lowerheader li:nth-of-type(2)
-{
-  line-height: 23.75px;
-  font-weight: 400;
-  font-size: 16px;
-  position: absolute;
-  left: 168px;
-  top: 91px;
-  background: url(../images/bg/Vector.png);
-  background-repeat: no-repeat;
-  padding-left: 29px;
-}
+    #lowerheader li:nth-of-type(2)
+    {
+        line-height: 23.75px;
+        font-weight: 400;
+        font-size: 16px;
+        position: absolute;
+        left: 168px;
+        top: 91px;
+        background: url(../images/bg/Vector.png);
+        background-repeat: no-repeat;
+        padding-left: 29px;
+    }
 
-#lowerheader li:nth-of-type(3)
-{
-    line-height: 23.75px;
-    font-weight: 400;
-    font-size: 16px;
-    position: absolute;
-    left: 269px;
-    top: 91px;
-    background: url(../images/bg/Vector\ \(1\).png);
-    background-repeat: no-repeat;
-    padding-left: 29px;
-}
+    #lowerheader li:nth-of-type(3)
+    {
+        line-height: 23.75px;
+        font-weight: 400;
+         font-size: 16px;
+         position: absolute;
+         left: 269px;
+         top: 91px;
+         background: url(../images/bg/Vector\ \(1\).png);
+         background-repeat: no-repeat;
+         padding-left: 29px;
+    }
     #lowerheader input
     {
         position: absolute;
